@@ -11,10 +11,15 @@ Only Rules:
 ** List of Potential Topics **
 
 CLASSICAL STATISTICS:
+
 	- Distributions - Gaussian, Poisson, Binomial, etc.
+
 	- Linear regression, logistic regression (chi-squared)
+
 	- Interpolation
+
 	- Density estimation
+
 	- Error propagation
 	- Confidence intervals
 	- Maximum likelihood
