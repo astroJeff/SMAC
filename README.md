@@ -10,70 +10,65 @@ Only Rules:
 
 ** List of Potential Topics **
 
-CLASSICAL STATISTICS:
+CLASSICAL STATISTICS:  
+	- Distributions - Gaussian, Poisson, Binomial, etc.  
+	- Linear regression, logistic regression (chi-squared)  
+	- Interpolation  
+	- Density estimation  
+	- Error propagation  
+	- Confidence intervals  
+	- Maximum likelihood  
+	- Bootstrap/Jackknife tests  
+	- Kolmogorov-Smirnov test  
+	- Anderson-Darling  
+	- Hypothesis testing  
+	- t-test, F-test  
+	- Image analysis  
+	- Censored data  
+	- Correlated data  
 
-	- Distributions - Gaussian, Poisson, Binomial, etc.
+Time series analysis:  
+	- Periodograms  
+	- Fourier transforms  
+	- Noise - red, white, pink  
+	- Auto/cross-correlation  
 
-	- Linear regression, logistic regression (chi-squared)
+BAYESIAN STATISTICS:  
+Bayesian Inference:  
+	- Probabilistic calculus  
+	- Bayesian priors  
+	- Mixture models  
+	- Simulated annealing  
+	- Empirical Bayes method  
+	- Hierarchical models  
 
-	- Interpolation
+Model selection:  
+	- Cross validation  
+	- Approximate Bayesian computation  
+	- Aikake/Bayes information criterion  
 
-	- Density estimation
-
-	- Error propagation
-	- Confidence intervals
-	- Maximum likelihood
-	- Bootstrap/Jackknife tests
-	- Kolmogorov-Smirnov test
-	- Anderson-Darling
-	- Hypothesis testing
-	- t-test, F-test
-	- Image analysis
-	- Censored data
-	- Correlated data
-
-Time series analysis:
-	- Periodograms
-	- Fourier transforms
-	- Noise - red, white, pink
-	- Auto/cross-correlation
-
-BAYESIAN STATISTICS:
-Bayesian Inference:
-	- Probabilistic calculus
-	- Bayesian priors
-	- Mixture models
-	- Simulated annealing
-	- Empirical Bayes method
-	- Hierarchical models
-
-Model selection:
-	- Cross validation
-	- Approximate Bayesian computation
-	- Aikake/Bayes information criterion
-
-Monte Carlo methods:
-	- Monte Carlo integration
-	- MCMC - Metropolis-Hastings
-	- MCMC - Gibbs and other samplers
+Monte Carlo methods:  
+	- Monte Carlo integration  
+	- MCMC - Metropolis-Hastings  
+	- MCMC - Gibbs and other samplers  
 
 
-MACHINE LEARNING:
-Clustering (unsupervised learning): 
-	- k-means
-	- Expectation maximization
-	- Hierarchical clustering
-	- Subspace clustering
+MACHINE LEARNING:  
+Clustering (unsupervised learning):  
+	- k-means  
+	- Expectation maximization  
+	- Hierarchical clustering  
+	- Subspace clustering  
 
-Classification (supervised learning):
-	- (k-)nearest neighbor
-	- Trees
-	- Support vector machines
-	- Principle component analysis, dimensionality reduction
-	- Deep Learning and Neural Nets
+Classification (supervised learning):  
+	- (k-)nearest neighbor  
+	- Trees  
+	- Support vector machines  
+	- Principle component analysis, dimensionality reduction  
+	- Deep Learning and Neural Nets  
 
-Regression:
-	- Gaussian process regression
-	- Kernel regression
-	- Stochastic gradient descent
-	- Boosted trees
+Regression:  
+	- Gaussian process regression  
+	- Kernel regression  
+	- Stochastic gradient descent  
+	- Boosted trees  
