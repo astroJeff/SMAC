@@ -12,32 +12,33 @@ Only Rules:
 
 CLASSICAL STATISTICS:  
 	- Distributions - Gaussian, Poisson, Binomial, etc.  
-	- Linear regression, logistic regression (chi-squared)  
-	- Interpolation  
-	- Density estimation  
-	- Error propagation  
-	- Confidence intervals  
-	- Maximum likelihood  
-	- Bootstrap/Jackknife tests  
-	- Kolmogorov-Smirnov test  
-	- Anderson-Darling  
-	- Hypothesis testing  
+	- Distribution comparisons, Kolmogorov-Smirnov and Anderson-Darling tests  
 	- t-test, F-test  
-	- Image analysis  
-	- Censored data  
 	- Correlated data  
+	- Linear regression (chi-squared analysis)  
+	- Error propagation  
+	- Interpolation and density estimation  
+	- Confidence intervals, the Bootstrap, and the Jackknife  
+	- Likelihood functions, maximum likelihood estimation  
+	- Hypothesis testing  
+	- Image analysis  
+	- Censored data and outliers  
+	- Biased data, e.g. luminosity functions, parallaxes  
 
 Time series analysis:  
 	- Periodograms  
-	- Fourier transforms  
+	- Discrete fourier transforms, wavelets  
+	- Filters  
 	- Noise - red, white, pink  
 	- Auto/cross-correlation  
+	- Identifying bursts
 
 BAYESIAN STATISTICS:  
 Bayesian Inference:  
 	- Probabilistic calculus  
 	- Bayesian priors  
-	- Mixture models  
+	- Bayesian density estimation  
+	- Mixture models, removing outliers  
 	- Simulated annealing  
 	- Empirical Bayes method  
 	- Hierarchical models  
@@ -55,20 +56,27 @@ Monte Carlo methods:
 
 MACHINE LEARNING:  
 Clustering (unsupervised learning):  
+	- Extreme deconvolution  
 	- k-means  
 	- Expectation maximization  
 	- Hierarchical clustering  
 	- Subspace clustering  
 
+Dimensionality reduction:
+	- Principle component analysis, dimensionality reduction  
+	- Non-negative matrix factorization  
+	- Manifold learning  
+
 Classification (supervised learning):  
 	- (k-)nearest neighbor  
 	- Trees  
+	- Random forests  
 	- Support vector machines  
-	- Principle component analysis, dimensionality reduction  
 	- Deep Learning and Neural Nets  
+	- Boosted trees  
 
 Regression:  
 	- Gaussian process regression  
 	- Kernel regression  
+	- Cross-validation
 	- Stochastic gradient descent  
-	- Boosted trees  
