@@ -10,7 +10,8 @@ Only Rules:
 3. All code, plots, and data will be publicly available.  
 
 
-Schedule:
+Schedule:  
+  
 Jan 23 - Distributions, hypothesis testing, and distribution comparisons (Paul, Giannis)  
 Feb 6 - Distributions continued (Jeff)  
 Feb 13 - Uncertainty propagation, confidence intervals (Konstantinos, Steve)  
