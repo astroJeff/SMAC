@@ -34,7 +34,16 @@ python2 -m ipykernel install --user
 
         sudo apt-get install git
 
-4. From you SMAC directory run
+4. Create an SSH key:
+
+   [i]   Generate a new key: ssh-keygen -t rsa -b 4096 -C "you@example.com"
+   [ii]  Copy the key to clipboard
+   [iii] Add it to your github account: Settings > SSH keys -> Add new key
+
+   For more details visit:
+   https://help.github.com/articles/connecting-to-github-with-ssh/
+
+5. From your SMAC directory run
 
         git clone https://github.com/astroJeff/SMAC.git
 
