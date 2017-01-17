@@ -11,11 +11,11 @@ Only Rules:
 
 
 Schedule:
-Jan 23 - Distributions, hypothesis testing, and distribution comparisons (Paul, Giannis)
-Feb 6 - Distributions continued (Jeff)
-Feb 13 - Uncertainty propagation, confidence intervals (Konstantinos, Steve)
-Feb 20 - Uncertainty continued (Maria, Ioanna)
-Mar 6 - Regression analysis (Dima, Konstantinos)
-Mar 13 - Regression continued (Andreas, Kostas)
-Mar 20 - Interpolation (Aris)
-Mar 27 - Interpolation continued
+Jan 23 - Distributions, hypothesis testing, and distribution comparisons (Paul, Giannis)  
+Feb 6 - Distributions continued (Jeff)  
+Feb 13 - Uncertainty propagation, confidence intervals (Konstantinos, Steve)  
+Feb 20 - Uncertainty continued (Maria, Ioanna)  
+Mar 6 - Regression analysis (Dima, Konstantinos)  
+Mar 13 - Regression continued (Andreas, Kostas)  
+Mar 20 - Interpolation (Aris)  
+Mar 27 - Interpolation continued  
