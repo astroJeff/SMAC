@@ -1,0 +1,57 @@
+#### INSTALLATION ##############################################################
+
+The following commands install the necessary software or upgrade it if already
+installed. For Ubuntu distributions Python 3 refers to Python 3.4. It is
+recommended to use v3 but v2 instructions are also given.
+
+
+[ Python 3.x ] (recommended)
+
+sudo apt-get install python3 python3-pip
+sudo -H pip3 install --upgrade pip
+sudo -H pip3 install jupyter scipy numpy matplotlib astropy scikit-learn wand
+sudo -H pip3 install jupyter scipy numpy matplotlib astropy scikit-learn wand --upgrade
+sudo -H python3 -m pip install ipykernel
+python3 -m ipykernel install --user
+
+
+[ Python 2.7 ]
+
+sudo apt-get install python2.7 python-pip
+sudo -H pip install --upgrade pip
+sudo -H pip install jupyter scipy numpy matplotlib astropy scikit-learn wand
+sudo -H pip install jupyter scipy numpy matplotlib astropy scikit-learn wand --upgrade
+sudo -H python2 -m pip install ipykernel
+python2 -m ipykernel install --user
+
+
+
+#### GITHUB ####################################################################
+
+1. Go to "https://github.com/" and create an account
+2. Create a directory where SMAC files will be downloaded into.
+3. Install git:
+
+        sudo apt-get install git
+
+4. From you SMAC directory run
+
+        git clone https://github.com/astroJeff/SMAC.git
+
+   This creates a copy of the Jeff's repository in your account and downloads
+   the files into a subdirectory called "SMAC". In the future, running
+   "git pull" from the same directory, will update your local files.
+
+
+
+#### HOW TO RUN JUPYTER ########################################################
+
+Go to your SMAC directory and run
+
+jupyter notebook
+
+When a notebook is loaded, you can see the kernel version (upper right corner).
+It is possible that Python 2.7 is the current as many OS distributions use it
+by default. Go to "Kernel -> Change kernel" and select your preference.
+
+If you don't see any other versions, sth went wrong when installing "ipykernel".
