@@ -13,7 +13,7 @@ Only Rules:
 Schedule:  
   
 Jan 23 - Distributions, hypothesis testing, and distribution comparisons (Paul, Giannis)  
-Feb 6 - Distributions continued (Jeff)  
+Feb 6 - Distributions continued (Jeff, Gina)  
 Feb 13 - Uncertainty propagation, confidence intervals (Konstantinos, Steve)  
 Feb 20 - Uncertainty continued (Maria, Ioanna)  
 Mar 6 - Regression analysis (Dima, Konstantinos)  
