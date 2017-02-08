@@ -16,7 +16,7 @@ Jan 23 - Distributions, hypothesis testing, and distribution comparisons (Paul, 
 Feb 6 - Distributions continued (Jeff, Gina)  
 Feb 13 - Uncertainty propagation, confidence intervals (Konstantinos, Steve)  
 Feb 20 - Uncertainty continued (Maria, Ioanna)  
-Mar 6 - Regression analysis (Dima)  
-Mar 13 - Regression continued (Andreas, Kostas)  
+Mar 6 - Regression analysis (Dima, Kostas)  
+Mar 13 - Regression continued (Andreas, Giannis)  
 Mar 20 - Interpolation (Aris, Konstantina)  
 Mar 27 - Interpolation continued  
