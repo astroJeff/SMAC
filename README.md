@@ -13,10 +13,14 @@ Only Rules:
 Schedule:  
   
 Jan 23 - Distributions, hypothesis testing, and distribution comparisons (Paul, Giannis)  
-Feb 6 - Distributions continued (Jeff, Gina)  
-Feb 13 - Uncertainty propagation, confidence intervals (Konstantinos, Steve)  
-Feb 20 - Uncertainty continued (Maria, Ioanna)  
-Mar 6 - Regression analysis (Dima, Kostas)  
-Mar 13 - Regression continued (Andreas, Giannis)  
-Mar 20 - Interpolation (Aris, Konstantina)  
-Mar 27 - Interpolation continued  
+Feb 6 - Distributions: Workshop (Jeff, Gina)  
+Feb 13 - Uncertainty: Propagation, confidence intervals, bootsrapping, jackknife (Konstantinos, Steve)  
+Feb 20 - Uncertainty: Workshop (Maria, Ioanna)  
+Mar 6 - Regression analysis: Theory and methods (Dima, Kostas)  
+Mar 13 - Regression: Workshop (Andreas, Giannis)  
+Mar 20 - Interpolation: Theory and methods (Aris, Konstantina)  
+Mar 27 - Interpolation: Workshop  
+Apr 3 - Image analysis  
+Apr 10 - Censored data  
+Apr 17 - Likelihood functions: Probability calculus (Jeff)  
+Apr 24 - Likelihood functions: Workshop (Andreas)  
