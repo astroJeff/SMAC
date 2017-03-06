@@ -2,7 +2,7 @@ Statistical Methods for Astrophysics in Crete (SMAC)
 
 This is the repository for a weekly statistics seminar held by the astronomy group within the University of Crete Department of Physics. 
 
-We meet on Mondays 12 pm - 1 pm in the Coffee Room.
+We meet on Mondays 11:45 pm - 1:15 pm in the Coffee Room.
 
 Only Rules:  
 1. No experience necessary. Weekly seminars should be designed with this in mind.  
