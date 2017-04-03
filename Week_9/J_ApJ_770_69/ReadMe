@@ -1,0 +1,131 @@
+J/ApJ/770/69          Kepler planet candidates radii          (Petigura+, 2013)
+================================================================================
+A plateau in the planet population below twice the size of Earth.
+    Petigura E.A., Marcy G.W., Howard A.W.
+   <Astrophys. J., 770, 69 (2013)>
+   =2013ApJ...770...69P
+================================================================================
+ADC_Keywords: Planets ; Stars, double and multiple ; Stars, diameters ;
+              Effective temperatures
+Keywords: planetary systems; stars: statistics; techniques: photometric
+
+Abstract:
+    We carry out an independent search of Kepler photometry for small
+    transiting planets with sizes 0.5-8.0 times that of Earth and orbital
+    periods between 5 and 50 days, with the goal of measuring the fraction
+    of stars harboring such planets. We use a new transit search
+    algorithm, TERRA, optimized to detect small planets around
+    photometrically quiet stars. We restrict our stellar sample to include
+    the 12000 stars having the lowest photometric noise in the Kepler
+    survey, thereby maximizing the detectability of Earth-size planets. We
+    report 129 planet candidates having radii less than 6R_E_ found in
+    three years of Kepler photometry (quarters 1-12). Forty-seven of these
+    candidates are not in Batalha et al. (J/ApJS/204/24), which only
+    analyzed photometry from quarters 1-6. We gather Keck HIRES spectra
+    for the majority of these targets leading to precise stellar radii and
+    hence precise planet radii. We make a detailed measurement of the
+    completeness of our planet search. We inject synthetic dimmings from
+    mock transiting planets into the actual Kepler photometry. We then
+    analyze that injected photometry with our TERRA pipeline to assess our
+    detection completeness for planets of different sizes and orbital
+    periods. We compute the occurrence of planets as a function of planet
+    radius and period, correcting for the detection completeness as well
+    as the geometric probability of transit, R_*_/a. The resulting
+    distribution of planet sizes exhibits a power law rise in occurrence
+    from 5.7R_E_ down to 2R_E_, as found in Howard et al.
+    (2012ApJS..201...15H). That rise clearly ends at 2R_E_. The occurrence
+    of planets is consistent with constant from 2R_E_ toward 1R_E_. This
+    unexpected plateau in planet occurrence at 2R_E_ suggests distinct
+    planet formation processes for planets above and below 2R_E_.
+
+Description:
+    We obtained spectra for 100 of the 129 stars with planet candidates
+    detected with the TERRA pipeline using HIRES at the Keck I telescope
+    with the standard configuration of the California Planet Survey (Marcy
+    et al. 2008PhST..130a4001M). These spectra have resolution of ~50000,
+    at an S/N of 45/pixel at 5500{AA}.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe         80        .   This file
+table2.dat     89      129   Planet candidates identified with TERRA
+table3.dat     38      162   Union of Batalha et al. 2013 (J/ApJS/204/24)
+                             and TERRA Planet Candidate Catalogs
+--------------------------------------------------------------------------------
+
+See also:
+ V/133 : Kepler Input Catalog (Kepler Mission Team, 2009)
+ J/ApJS/207/35 : Kepler pipeline signal-to-noise studies (Christiansen+, 2013)
+ J/ApJS/204/24 : Kepler planetary candidates. III. (Batalha+, 2013)
+ J/ApJ/763/41  : Kepler multiple-candidate systems radii (Ciardi+, 2013)
+ J/ApJ/738/170 : False positive Kepler planet candidates (Morton+, 2011)
+ J/ApJ/736/19  : Kepler planetary candidates. II. (Borucki+, 2011)
+ J/ApJ/728/117 : Kepler planetary candidates. I. (Borucki+, 2011)
+ J/AJ/142/112  : KIC photometric calibration (Brown+, 2011)
+ J/ApJS/197/8  : Kepler's candidate mult. transiting planets (Lissauer+, 2011)
+ J/other/Sci/330.653 : Detected planets in the Eta-Earth Survey (Howard+, 2010)
+
+Byte-by-byte Description of file: table2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1-  8  I8    ---     KIC     [2142522/12737015] Kepler identifier (V/133)
+  10- 15  F6.3  d       Per     [5/49.6] Orbital period (1)
+  17- 23  F7.3  d       T0      Time of transit center (BJD-2454900) (1)
+  25- 28  F4.2  %       Rp/R*   [0.5/5.7] Planet-to-star radius ratio (1)
+  30- 33  F4.2  %     e_Rp/R*   [0.05/0.7] Rp/R* uncertainty
+  35- 38  F4.2  h       tau     [0.4/8.1] Time for the planet to travel R*
+                                 during transit ({tau}) (1)
+  40- 43  F4.2  h     e_tau     [0.02/4] tau uncertainty
+      45  A1    ---   l_b       Limit flag on b
+  47- 50  F4.2  ---     b       [0.2/1] Transit impact parameter b (1)
+  52- 55  F4.2  ---   e_b       [0.01/0.3]? b uncertainty
+  57- 60  I4    k       Teff    [4692/6179] Effective temperature (2)
+  62- 65  F4.2 [cm/s2]  logg    [3.8/4.7] Surface gravity (2)
+  67- 70  F4.2  Rsun    R*      [0.6/2.5] Stellar radius (2)
+  72- 75  F4.2  Rgeo    Rp      [0.5/5.6] Planet radius
+  77- 80  F4.2  Rgeo  e_Rp      [0.06/1.1] Rp uncertainty
+  82- 83  A2    ---     Src     Source of stellar parameters (3)
+      85  A1    ---     FP      [YN] False positive?
+      87  A1    ---     B12     Candidate present in Batalha et al. 2013
+                                 (J/ApJS/204/24)?
+      89  A1    ---   n_KIC     [n] new candidate identified with TERRA
+                                 (column added by CDS) (4)
+--------------------------------------------------------------------------------
+Note (1): Parameters determined from the Mandel & Agol (2002ApJ...580L.171M)
+          light curve fit.
+Note (2): By default, stellar parameters R*, Teff, and logg come from the
+          SpecMatch routine (A. W. Howard et al. 2013, in preparation).
+          If SpecMatch parameters do not exist, parameters are taken from the
+          corrected KIC values, described in Section 4.
+Note (3): Source as follows:
+  S  = SpecMatch-derived parameters using Keck HIRES spectra,
+  P1 = photometrically-derived parameters from Batalha et al. (2013,
+       J/ApJS/204/24),
+  P2 = photometrically-derived parameters computed by the authors.
+          See Section 4 for more details.
+Note (4): The 37 TERRA candidates not in Batalha et al. (J/ApJS/204/24) and
+          not listed as false positives by the Kepler team (table 4).
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table3.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label    Explanations
+--------------------------------------------------------------------------------
+   1-  8  I8    ---     KIC      [2142522/12737015] Kepler identifier
+  10- 16  F7.2  ---     KOI      [5.02/2582.01]? KOI planet identifier (1)
+  18- 22  F5.2  d       PerB     [5.2/49.2]? Period from Batalha et al. (1)
+  24- 27  F4.2  Rgeo    RpB      [0.5/6.3]? Planet radius from Batalha et al.(1)
+  29- 33  F5.2  d       Per      [5/49.6]? TERRA period
+  35- 38  F4.2  Rgeo    Rp       [0.5/5.6]? TERRA planet radius
+--------------------------------------------------------------------------------
+Note (1): From Batalha et al. 2013 (J/ApJS/204/24)
+--------------------------------------------------------------------------------
+
+History:
+    From electronic version of the journal
+
+================================================================================
+(End)                                     Emmanuelle Perret [CDS]    08-Jan-2015
